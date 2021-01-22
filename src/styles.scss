@@ -3,7 +3,7 @@
 
 $body-bg: #ddd;
 $body-color: #222;
-$primary: hotpink;
+$primary: rgb(228, 50, 64);
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -13,7 +13,7 @@ $font-family-base: Arial;
 
 .fancy {
   display: inline-block;
-  background: rgb(131, 58, 180);
+  background: rgb(93, 180, 58);
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
@@ -22,4 +22,18 @@ $font-family-base: Arial;
   );
   color: #fff;
   padding: 0.5em;
+}
+main {
+  margin: 0 1em;
+}
+.container {
+  margin-top: 5em;
+}
+footer {
+  background-color: gray;
+  color: silver;
+  margin: 1em 0 0;
+}
+footer p {
+  margin-left: 1em;
 }
