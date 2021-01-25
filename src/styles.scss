@@ -23,11 +23,16 @@ $font-family-base: Arial;
   color: #fff;
   padding: 0.5em;
 }
+
+// body {
+//   padding-top: 80px;
+// }
+
+.container-content {
+  padding-top: 80px;
+}
 main {
   margin: 0 1em;
-}
-main > .container {
-  margin-top: 5em;
 }
 footer {
   background-color: gray;
