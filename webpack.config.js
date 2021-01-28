@@ -35,6 +35,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({ template: "./src/index.html" }),
+    new HtmlWebpackPlugin({
+      filename: "impressum.html",
+      template: "./src/impressum.html",
+    }),
     new CopyWebpackPlugin({
       patterns: [{ from: "public", to: "public" }],
     }),
